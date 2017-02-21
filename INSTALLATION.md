@@ -21,7 +21,7 @@ you need to install on a Windows or Mac OSX computer.
 
 * Clone this repository into the workspace
 
-  `git clone https://github.com/NVIDIAGPUTeachingKit/jethost.git`
+  `https://github.com/cturkoanje/iD-Tech-ROB4-Host-PC.git`
 
 * Run the ros configuration script
 
