@@ -20,6 +20,7 @@ sudo apt-get -y install ros-kinetic-rosserial-arduino
 sudo apt-get -y install ros-kinetic-rosserial
 sudo apt-get -y install ros-kinetic-joy
 sudo apt-get -y install ros-kinetic-teleop-twist-joy
+sudo apt-get -y install ros-kinetic-teleop-twist-keyboard
 
 # Configure Catkin Workspace
 source /opt/ros/kinetic/setup.bash
