@@ -28,7 +28,7 @@ cd ../../
 catkin_init_workspace
 
 #Build Arduino Ros libraries
-cd src/jethost/jet_arduino/resources/lib
+cd src/jet_arduino/resources/lib
 rm -rf ros_lib
 rosrun rosserial_arduino make_libraries.py .
 
