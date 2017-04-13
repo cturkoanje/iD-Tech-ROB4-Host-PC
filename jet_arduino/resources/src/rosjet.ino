@@ -41,9 +41,9 @@ unsigned int cm[SONAR_NUM];         // Where the ping distances are stored.
 uint8_t currentSensor = 0;          // Keeps track of which sensor is active.
 
 NewPing sonar[SONAR_NUM] = {     // Sensor object array.
-  NewPing(53, 51, MAX_DISTANCE), // Each sensor's trigger pin, echo pin, and max distance to ping.
-  NewPing(49, 47, MAX_DISTANCE),
-  NewPing(45, 43, MAX_DISTANCE)
+  NewPing(51, 53, MAX_DISTANCE), // Each sensor's trigger pin, echo pin, and max distance to ping.
+  NewPing(47, 49, MAX_DISTANCE),
+  NewPing(43, 45, MAX_DISTANCE)
 };
 std_msgs::Int16 sonar_distance[SONAR_NUM];
 
